@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1080.0" style="-fx-background-color: #262626;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.xxathyx.craftz.launcher.settings.ControlsController">
+   <children>
+      <Rectangle arcWidth="5.0" fill="#262e2f" height="23.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1080.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="18.0" layoutY="173.0" stroke="#404040" strokeType="INSIDE" width="501.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4c4c4c" height="21.0" layoutX="558.0" layoutY="173.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <ImageView fitHeight="24.0" fitWidth="24.0" layoutY="-1.0">
+         <image>
+            <Image url="@../../resources/icon.png" />
+         </image>
+      </ImageView>
+      <Text id="frame_text" fill="WHITE" layoutX="27.0" layoutY="17.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CraftZ - Settings" wrappingWidth="195.0">
+         <font>
+            <Font name="Calibri" size="21.0" />
+         </font>
+      </Text>
+      <Rectangle arcWidth="5.0" fill="#202020" height="59.0" layoutY="23.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1080.0" />
+      <Rectangle arcHeight="2.0" arcWidth="5.0" fill="WHITE" height="2.0" layoutY="80.0" stroke="TRANSPARENT" strokeType="INSIDE" visible="false" width="177.0" />
+      <ImageView fx:id="hide_image" layoutX="1038.0" layoutY="3.0" opacity="0.8">
+         <image>
+            <Image url="@../../resources/hide.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="close_image" layoutX="1057.0" layoutY="3.0" opacity="0.8">
+         <image>
+            <Image url="@../../resources/close.png" />
+         </image>
+      </ImageView>
+      <Button id="close_button" layoutX="1057.0" layoutY="-2.0" mnemonicParsing="false" onAction="#close" onMouseEntered="#enter_close" onMouseExited="#exit_close" prefHeight="0.0" prefWidth="16.0" style="-fx-background-color: #00000000;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button id="hide_button" layoutX="1037.0" layoutY="-2.0" mnemonicParsing="false" onAction="#hide" onMouseEntered="#enter_hide" onMouseExited="#exit_hide" prefHeight="0.0" prefWidth="16.0" style="-fx-background-color: #00000000;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="graphics_button" layoutX="6.0" layoutY="24.0" mnemonicParsing="false" onAction="#graphics" onMouseEntered="#enter_subcategory" onMouseExited="#exit_subcategory" opacity="0.8" style="-fx-background-color: #00000000;" text="GRAPHICS" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="30.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="controls_button" layoutX="156.0" layoutY="24.0" mnemonicParsing="false" style="-fx-background-color: #00000000;" text="CONTROLS" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="30.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="audio_button" layoutX="317.0" layoutY="24.0" mnemonicParsing="false" onAction="#audio" onMouseEntered="#enter_subcategory" onMouseExited="#exit_subcategory" opacity="0.8" style="-fx-background-color: #00000000;" text="AUDIO" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="30.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="launcher_button" layoutX="428.0" layoutY="24.0" mnemonicParsing="false" onAction="#launcher" onMouseEntered="#enter_subcategory" onMouseExited="#exit_subcategory" opacity="0.8" style="-fx-background-color: #00000000;" text="LAUNCHER" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="30.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Rectangle arcHeight="2.0" arcWidth="5.0" fill="WHITE" height="2.0" layoutX="154.0" layoutY="80.0" stroke="TRANSPARENT" strokeType="INSIDE" width="177.0" />
+      <Rectangle arcHeight="2.0" arcWidth="5.0" fill="WHITE" height="2.0" layoutX="314.0" layoutY="79.0" stroke="TRANSPARENT" strokeType="INSIDE" visible="false" width="123.0" />
+      <Rectangle arcHeight="2.0" arcWidth="5.0" fill="WHITE" height="2.0" layoutX="432.0" layoutY="80.0" stroke="TRANSPARENT" strokeType="INSIDE" visible="false" width="177.0" />
+      <Button fx:id="save_button" layoutX="864.0" layoutY="31.0" mnemonicParsing="false" onAction="#save" onMouseEntered="#enter_save" onMouseExited="#exit_save" opacity="0.8" prefHeight="44.0" prefWidth="107.0" style="-fx-background-color: #00000000;" text="SAVE" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fx:id="save_icon" layoutX="844.0" layoutY="22.0" opacity="0.8">
+         <image>
+            <Image url="@save-icon.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="discard_button" layoutX="953.0" layoutY="31.0" mnemonicParsing="false" onAction="#discard" onMouseEntered="#enter_subcategory" onMouseExited="#exit_subcategory" opacity="0.8" prefHeight="44.0" prefWidth="122.0" style="-fx-background-color: #00000000;" text="DISCARD" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Text fx:id="combat_text" fill="WHITE" layoutX="770.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="COMBAT">
+         <font>
+            <Font name="Calibri Bold" size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="mouvement_text" fill="WHITE" layoutX="199.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MOUVEMENT">
+         <font>
+            <Font name="Calibri Bold" size="24.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="527.0" layoutX="538.0" layoutY="140.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1.0" />
+      <Text fx:id="walk_forwards_text" fill="#ccc9c9" layoutX="21.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WALK FORWARDS">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="walk_forwards_field" alignment="BOTTOM_RIGHT" layoutX="328.0" layoutY="165.0" onKeyPressed="#key_field_pressed" prefHeight="4.0" prefWidth="185.0" promptText="Z" style="-fx-background-color: #00000000;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="18.0" layoutY="195.0" stroke="#404040" strokeType="INSIDE" width="501.0" />
+      <Text fx:id="walk_backwards_text" fill="#ccc9c9" layoutX="21.0" layoutY="212.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WALK BACKWARDS">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="walk_backwards_field" alignment="BOTTOM_RIGHT" layoutX="328.0" layoutY="187.0" onKeyPressed="#key_field_pressed" prefHeight="4.0" prefWidth="185.0" promptText="S" style="-fx-background-color: #00000000;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="18.0" layoutY="217.0" stroke="#404040" strokeType="INSIDE" width="501.0" />
+      <Text fx:id="strafe_left_text" fill="#ccc9c9" layoutX="21.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="STRAFE LEFT">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="strafe_left_field" alignment="BOTTOM_RIGHT" layoutX="328.0" layoutY="208.0" onKeyPressed="#key_field_pressed" prefHeight="4.0" prefWidth="185.0" promptText="Q" style="-fx-background-color: #00000000;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="18.0" layoutY="239.0" stroke="#404040" strokeType="INSIDE" width="501.0" />
+      <Text fx:id="strafe_right_text" fill="#ccc9c9" layoutX="21.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text="STRAFE RIGHT">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="strafe_right_field" alignment="BOTTOM_RIGHT" layoutX="328.0" layoutY="231.0" onKeyPressed="#key_field_pressed" prefHeight="4.0" prefWidth="185.0" promptText="D" style="-fx-background-color: #00000000;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="18.0" layoutY="261.0" stroke="#404040" strokeType="INSIDE" width="501.0" />
+      <Text fx:id="sprint_text" fill="#ccc9c9" layoutX="21.0" layoutY="278.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SPRINT">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="sprint_field" alignment="BOTTOM_RIGHT" layoutX="328.0" layoutY="253.0" onKeyPressed="#key_field_pressed" prefHeight="4.0" prefWidth="185.0" promptText="LEFT SHIFT" style="-fx-background-color: #00000000;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="18.0" layoutY="283.0" stroke="#404040" strokeType="INSIDE" width="501.0" />
+      <Text fx:id="sneak_text" fill="#ccc9c9" layoutX="21.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SNEAK">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="sneak_field" alignment="BOTTOM_RIGHT" layoutX="328.0" layoutY="275.0" onKeyPressed="#key_field_pressed" prefHeight="4.0" prefWidth="185.0" promptText="C" style="-fx-background-color: #00000000;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="18.0" layoutY="305.0" stroke="#404040" strokeType="INSIDE" width="501.0" />
+      <Text fx:id="jump_text" fill="#ccc9c9" layoutX="21.0" layoutY="322.0" strokeType="OUTSIDE" strokeWidth="0.0" text="JUMP">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="jump_field" alignment="BOTTOM_RIGHT" layoutX="328.0" layoutY="297.0" onKeyPressed="#key_field_pressed" prefHeight="4.0" prefWidth="185.0" promptText="SPACE" style="-fx-background-color: #00000000;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="18.0" layoutY="327.0" stroke="#404040" strokeType="INSIDE" width="501.0" />
+      <Text fx:id="attack_text" fill="#ccc9c9" layoutX="21.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ATTACK">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="attack_field" alignment="BOTTOM_RIGHT" layoutX="328.0" layoutY="319.0" onKeyPressed="#key_field_pressed" prefHeight="4.0" prefWidth="185.0" promptText="LEFT BUTTON" style="-fx-background-color: #00000000;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="18.0" layoutY="349.0" stroke="#404040" strokeType="INSIDE" width="501.0" />
+      <Text fx:id="use_item_text" fill="#ccc9c9" layoutX="21.0" layoutY="366.0" strokeType="OUTSIDE" strokeWidth="0.0" text="USE ITEM">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="use_item_field" alignment="BOTTOM_RIGHT" layoutX="328.0" layoutY="341.0" onKeyPressed="#key_field_pressed" prefHeight="4.0" prefWidth="185.0" promptText="RIGHT BUTTON" style="-fx-background-color: #00000000;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="18.0" layoutY="371.0" stroke="#404040" strokeType="INSIDE" width="501.0" />
+      <Text fx:id="drop_item_text" fill="#ccc9c9" layoutX="21.0" layoutY="388.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DROP ITEM">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="drop_item_field" alignment="BOTTOM_RIGHT" layoutX="328.0" layoutY="363.0" onKeyPressed="#key_field_pressed" prefHeight="4.0" prefWidth="185.0" promptText="X" style="-fx-background-color: #00000000;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="558.0" layoutY="173.0" stroke="#404040" strokeType="INSIDE" width="501.0" />
+      <Text fx:id="reload_text" fill="#ccc9c9" layoutX="561.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RELOAD">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="reload_field" alignment="BOTTOM_RIGHT" layoutX="868.0" layoutY="165.0" onKeyPressed="#key_field_pressed" prefHeight="4.0" prefWidth="185.0" promptText="R" style="-fx-background-color: #00000000;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="558.0" layoutY="195.0" stroke="#404040" strokeType="INSIDE" width="501.0" />
+      <Text fx:id="flashlight" fill="#ccc9c9" layoutX="561.0" layoutY="212.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FLASHLIGHT">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="flashlight_field" alignment="BOTTOM_RIGHT" layoutX="868.0" layoutY="187.0" onKeyPressed="#key_field_pressed" prefHeight="4.0" prefWidth="185.0" promptText="F" style="-fx-background-color: #00000000;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="18.0" layoutY="393.0" stroke="#404040" strokeType="INSIDE" width="501.0" />
+      <Text fx:id="walk_slowly_text" fill="#ccc9c9" layoutX="21.0" layoutY="410.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WALK SLOWLY">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="walk_slowly_field" alignment="BOTTOM_RIGHT" layoutX="328.0" layoutY="385.0" onKeyPressed="#key_field_pressed" prefHeight="4.0" prefWidth="185.0" promptText="LEFT CONTROL" style="-fx-background-color: #00000000;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="558.0" layoutY="217.0" stroke="#404040" strokeType="INSIDE" width="501.0" />
+      <Text fx:id="zoom_text" fill="#ccc9c9" layoutX="561.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ZOOM">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="zoom_field" alignment="BOTTOM_RIGHT" layoutX="868.0" layoutY="209.0" onKeyPressed="#key_field_pressed" prefHeight="4.0" prefWidth="185.0" promptText="C" style="-fx-background-color: #00000000;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="558.0" layoutY="239.0" stroke="#404040" strokeType="INSIDE" width="501.0" />
+      <Text fx:id="open_inventory_text" fill="#ccc9c9" layoutX="561.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OPEN INVENTORY">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="open_inventory_field" alignment="BOTTOM_RIGHT" layoutX="868.0" layoutY="231.0" onKeyPressed="#key_field_pressed" prefHeight="4.0" prefWidth="185.0" promptText="E" style="-fx-background-color: #00000000;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Text fx:id="communication_text" fill="WHITE" layoutX="729.0" layoutY="499.0" strokeType="OUTSIDE" strokeWidth="0.0" text="COMMUNICATION">
+         <font>
+            <Font name="Calibri Bold" size="24.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="558.0" layoutY="515.0" stroke="#404040" strokeType="INSIDE" width="501.0" />
+      <Text fx:id="open_chat_text" fill="#ccc9c9" layoutX="561.0" layoutY="532.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OPEN CHAT">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="open_chat_field" alignment="BOTTOM_RIGHT" layoutX="868.0" layoutY="507.0" onKeyPressed="#key_field_pressed" prefHeight="4.0" prefWidth="185.0" promptText="T" style="-fx-background-color: #00000000;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="558.0" layoutY="537.0" stroke="#404040" strokeType="INSIDE" width="501.0" />
+      <Text fx:id="enable_vocal_text" fill="#ccc9c9" layoutX="561.0" layoutY="554.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ENABLE VOCAL">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="enable_vocal_field" alignment="BOTTOM_RIGHT" layoutX="868.0" layoutY="529.0" onKeyPressed="#key_field_pressed" prefHeight="4.0" prefWidth="185.0" promptText="V" style="-fx-background-color: #00000000;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="558.0" layoutY="261.0" stroke="#404040" strokeType="INSIDE" width="501.0" />
+      <Text fx:id="hotbar_one_text" fill="#ccc9c9" layoutX="561.0" layoutY="278.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HOTBAR 1">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="hotbar_one_field" alignment="BOTTOM_RIGHT" layoutX="868.0" layoutY="253.0" onKeyPressed="#key_field_pressed" prefHeight="4.0" prefWidth="185.0" promptText="BUTTON 5" style="-fx-background-color: #00000000;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="558.0" layoutY="283.0" stroke="#404040" strokeType="INSIDE" width="501.0" />
+      <Text fx:id="hotbar_two_text" fill="#ccc9c9" layoutX="561.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HOTBAR 2">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="hotbar_two_field" alignment="BOTTOM_RIGHT" layoutX="868.0" layoutY="275.0" onKeyPressed="#key_field_pressed" prefHeight="4.0" prefWidth="185.0" promptText="BUTTON 4" style="-fx-background-color: #00000000;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="558.0" layoutY="305.0" stroke="#404040" strokeType="INSIDE" width="501.0" />
+      <Text fx:id="inspect_text" fill="#ccc9c9" layoutX="561.0" layoutY="322.0" strokeType="OUTSIDE" strokeWidth="0.0" text="INSPECT">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="inspect_field" alignment="BOTTOM_RIGHT" layoutX="868.0" layoutY="297.0" onKeyPressed="#key_field_pressed" prefHeight="4.0" prefWidth="185.0" promptText="H" style="-fx-background-color: #00000000;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="558.0" layoutY="327.0" stroke="#404040" strokeType="INSIDE" width="501.0" />
+      <Text fx:id="mouse_sensitivity_text" fill="WHITE" layoutX="1017.0" layoutY="343.0" strokeType="OUTSIDE" strokeWidth="0.0" text="50%">
+         <font>
+            <Font name="Calibri Light" size="16.0" />
+         </font>
+      </Text>
+      <Text fx:id="sensitivity_header_text" fill="#ccc9c9" layoutX="561.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SENSITIVITY">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Slider fx:id="mouse_sensitivity_slider" layoutX="716.0" layoutY="330.0" onMouseDragged="#update_mouse_sensitivity" prefHeight="14.0" prefWidth="268.0" value="50.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="558.0" layoutY="559.0" stroke="#404040" strokeType="INSIDE" width="501.0" />
+      <Text fx:id="show_map_text" fill="#ccc9c9" layoutX="561.0" layoutY="576.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SHOW MAP">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="show_map_field" alignment="BOTTOM_RIGHT" layoutX="868.0" layoutY="551.0" onKeyPressed="#key_field_pressed" prefHeight="4.0" prefWidth="185.0" promptText="," style="-fx-background-color: #00000000;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Text fx:id="mouse_controls_info" fill="#9e9e9e" layoutX="17.0" layoutY="700.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mouse keys shall be bound if necessary once in game" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="18.0" layoutY="415.0" stroke="#404040" strokeType="INSIDE" width="501.0" />
+      <Text fx:id="carry_on_text" fill="#ccc9c9" layoutX="21.0" layoutY="432.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CARRY ON">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="carry_on_field" alignment="BOTTOM_RIGHT" layoutX="328.0" layoutY="407.0" onKeyPressed="#key_field_pressed" prefHeight="4.0" prefWidth="185.0" promptText="A" style="-fx-background-color: #00000000;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="17.0" layoutY="437.0" stroke="#404040" strokeType="INSIDE" width="501.0" />
+      <Text fx:id="open_backpack_text" fill="#ccc9c9" layoutX="20.0" layoutY="454.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OPEN BACKPACK">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="open_backpack_field" alignment="BOTTOM_RIGHT" layoutX="327.0" layoutY="429.0" onKeyPressed="#key_field_pressed" prefHeight="4.0" prefWidth="185.0" promptText="B" style="-fx-background-color: #00000000;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="558.0" layoutY="349.0" stroke="#404040" strokeType="INSIDE" width="501.0" />
+      <Text fx:id="select_firing_mode_text" fill="#ccc9c9" layoutX="561.0" layoutY="366.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SELECT FIRING MODE">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="select_firing_mode_field" alignment="BOTTOM_RIGHT" layoutX="868.0" layoutY="341.0" onKeyPressed="#key_field_pressed" prefHeight="4.0" prefWidth="185.0" promptText="G" style="-fx-background-color: #00000000;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="558.0" layoutY="371.0" stroke="#404040" strokeType="INSIDE" width="501.0" />
+      <Text fx:id="weapon_cross_hit_text" fill="#ccc9c9" layoutX="561.0" layoutY="388.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WEAPON CROSS HIT">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="weapon_cross_hit_field" alignment="BOTTOM_RIGHT" layoutX="868.0" layoutY="363.0" onKeyPressed="#key_field_pressed" prefHeight="4.0" prefWidth="185.0" promptText="&lt;" style="-fx-background-color: #00000000;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="559.0" layoutY="393.0" stroke="#404040" strokeType="INSIDE" width="501.0" />
+      <Text fx:id="weapon_attachements_text" fill="#ccc9c9" layoutX="562.0" layoutY="410.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WEAPON ATTACHEMENTS MENU">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="weapon_attachements_field" alignment="BOTTOM_RIGHT" layoutX="869.0" layoutY="385.0" onKeyPressed="#key_field_pressed" prefHeight="4.0" prefWidth="185.0" promptText="W" style="-fx-background-color: #00000000;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="558.0" layoutY="415.0" stroke="#404040" strokeType="INSIDE" width="501.0" />
+      <Text fx:id="weapon_zoom_text" fill="#ccc9c9" layoutX="561.0" layoutY="432.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WEAPON ZOOM">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="weapon_zoom_field" alignment="BOTTOM_RIGHT" layoutX="868.0" layoutY="407.0" onKeyPressed="#key_field_pressed" prefHeight="4.0" prefWidth="185.0" promptText="C" style="-fx-background-color: #00000000;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="559.0" layoutY="581.0" stroke="#404040" strokeType="INSIDE" width="501.0" />
+      <Text fx:id="map_settings_text" fill="#ccc9c9" layoutX="562.0" layoutY="598.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MAP SETTINGS">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="map_settings_field" alignment="BOTTOM_RIGHT" layoutX="869.0" layoutY="573.0" onKeyPressed="#key_field_pressed" prefHeight="4.0" prefWidth="185.0" promptText="\$" style="-fx-background-color: #00000000;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Text fx:id="vehicles_text" fill="WHITE" layoutX="221.0" layoutY="496.0" strokeType="OUTSIDE" strokeWidth="0.0" text="VEHICLES">
+         <font>
+            <Font name="Calibri Bold" size="24.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="18.0" layoutY="515.0" stroke="#404040" strokeType="INSIDE" width="501.0" />
+      <Text fx:id="open_vehicle_gui_text" fill="#ccc9c9" layoutX="21.0" layoutY="532.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OPEN VEHICLE INVENTORY">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="open_vehicle_gui_field" alignment="BOTTOM_RIGHT" layoutX="328.0" layoutY="507.0" onKeyPressed="#key_field_pressed" prefHeight="4.0" prefWidth="185.0" promptText="I" style="-fx-background-color: #00000000;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="18.0" layoutY="537.0" stroke="#404040" strokeType="INSIDE" width="501.0" />
+      <Text fx:id="start_car_engine_text" fill="#ccc9c9" layoutX="21.0" layoutY="554.0" strokeType="OUTSIDE" strokeWidth="0.0" text="START CAR ENGINE">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="start_car_engine_field" alignment="BOTTOM_RIGHT" layoutX="328.0" layoutY="529.0" onKeyPressed="#key_field_pressed" prefHeight="4.0" prefWidth="185.0" promptText="*" style="-fx-background-color: #00000000;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="18.0" layoutY="559.0" stroke="#404040" strokeType="INSIDE" width="501.0" />
+      <Text fx:id="plane_throttle_up_text" fill="#ccc9c9" layoutX="21.0" layoutY="576.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PLANE THROTTLE UP">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="plane_throttle_up_field" alignment="BOTTOM_RIGHT" layoutX="328.0" layoutY="551.0" onKeyPressed="#key_field_pressed" prefHeight="4.0" prefWidth="185.0" promptText="+" style="-fx-background-color: #00000000;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="18.0" layoutY="581.0" stroke="#404040" strokeType="INSIDE" width="501.0" />
+      <Text fx:id="plane_throttle_down_text" fill="#ccc9c9" layoutX="21.0" layoutY="598.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PLANE THROTTLE DOWN">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="plane_throttle_down_field" alignment="BOTTOM_RIGHT" layoutX="328.0" layoutY="573.0" onKeyPressed="#key_field_pressed" prefHeight="4.0" prefWidth="185.0" promptText="-" style="-fx-background-color: #00000000;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="18.0" layoutY="603.0" stroke="#404040" strokeType="INSIDE" width="501.0" />
+      <Text fx:id="plane_drop_playload_text" fill="#ccc9c9" layoutX="21.0" layoutY="620.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PLANE DROP PLAYLOAD">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="plane_drop_playload_field" alignment="BOTTOM_RIGHT" layoutX="328.0" layoutY="595.0" onKeyPressed="#key_field_pressed" prefHeight="4.0" prefWidth="185.0" promptText="!" style="-fx-background-color: #00000000;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="18.0" layoutY="625.0" stroke="#404040" strokeType="INSIDE" width="501.0" />
+      <Text fx:id="move_helicopter_up_text" fill="#ccc9c9" layoutX="21.0" layoutY="642.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MOVE HELICOPTER UP">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="move_helicopter_up_field" alignment="BOTTOM_RIGHT" layoutX="328.0" layoutY="617.0" onKeyPressed="#key_field_pressed" prefHeight="4.0" prefWidth="185.0" promptText="SPACE" style="-fx-background-color: #00000000;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="558.0" layoutY="437.0" stroke="#404040" strokeType="INSIDE" width="501.0" />
+      <Text fx:id="wear_backpack_text" fill="#ccc9c9" layoutX="561.0" layoutY="454.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WEAR BACKPACK">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="wear_backpack_field" alignment="BOTTOM_RIGHT" layoutX="868.0" layoutY="429.0" onKeyPressed="#key_field_pressed" prefHeight="4.0" prefWidth="185.0" promptText="M" style="-fx-background-color: #00000000;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+   </children>
+</Pane>

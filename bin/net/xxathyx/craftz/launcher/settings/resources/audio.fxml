@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1080.0" style="-fx-background-color: #262626;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.xxathyx.craftz.launcher.settings.AudioController">
+   <children>
+      <Rectangle arcWidth="5.0" fill="#262e2f" height="23.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1080.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="18.0" layoutY="173.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="18.0" layoutY="197.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="18.0" layoutY="221.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="558.0" layoutY="173.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="558.0" layoutY="197.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="558.0" layoutY="221.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="558.0" layoutY="245.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="558.0" layoutY="269.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="558.0" layoutY="293.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <ImageView fitHeight="24.0" fitWidth="24.0" layoutY="-1.0">
+         <image>
+            <Image url="@../../resources/icon.png" />
+         </image>
+      </ImageView>
+      <Text id="frame_text" fill="WHITE" layoutX="27.0" layoutY="17.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CraftZ - Settings" wrappingWidth="195.0">
+         <font>
+            <Font name="Calibri" size="21.0" />
+         </font>
+      </Text>
+      <Rectangle arcWidth="5.0" fill="#202020" height="59.0" layoutY="23.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1080.0" />
+      <Rectangle arcHeight="2.0" arcWidth="5.0" fill="WHITE" height="2.0" layoutY="80.0" stroke="TRANSPARENT" strokeType="INSIDE" visible="false" width="177.0" />
+      <ImageView fx:id="hide_image" layoutX="1038.0" layoutY="3.0" opacity="0.8">
+         <image>
+            <Image url="@../../resources/hide.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="close_image" layoutX="1057.0" layoutY="3.0" opacity="0.8">
+         <image>
+            <Image url="@../../resources/close.png" />
+         </image>
+      </ImageView>
+      <Button id="close_button" layoutX="1057.0" layoutY="-2.0" mnemonicParsing="false" onAction="#close" onMouseEntered="#enter_close" onMouseExited="#exit_close" prefHeight="0.0" prefWidth="16.0" style="-fx-background-color: #00000000;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button id="hide_button" layoutX="1037.0" layoutY="-2.0" mnemonicParsing="false" onAction="#hide" onMouseEntered="#enter_hide" onMouseExited="#exit_hide" prefHeight="0.0" prefWidth="16.0" style="-fx-background-color: #00000000;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="graphics_button" layoutX="6.0" layoutY="24.0" mnemonicParsing="false" onAction="#graphics" onMouseEntered="#enter_subcategory" onMouseExited="#exit_subcategory" opacity="0.8" style="-fx-background-color: #00000000;" text="GRAPHICS" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="30.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="controls_button" layoutX="156.0" layoutY="24.0" mnemonicParsing="false" onAction="#controls" onMouseEntered="#enter_subcategory" onMouseExited="#exit_subcategory" opacity="0.8" style="-fx-background-color: #00000000;" text="CONTROLS" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="30.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="launcher_button" layoutX="428.0" layoutY="24.0" mnemonicParsing="false" onAction="#launcher" onMouseEntered="#enter_subcategory" onMouseExited="#exit_subcategory" opacity="0.8" style="-fx-background-color: #00000000;" text="LAUNCHER" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="30.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Rectangle arcHeight="2.0" arcWidth="5.0" fill="WHITE" height="2.0" layoutX="154.0" layoutY="79.0" stroke="TRANSPARENT" strokeType="INSIDE" visible="false" width="177.0" />
+      <Rectangle arcHeight="2.0" arcWidth="5.0" fill="WHITE" height="2.0" layoutX="427.0" layoutY="80.0" stroke="TRANSPARENT" strokeType="INSIDE" visible="false" width="177.0" />
+      <Button fx:id="save_button" layoutX="864.0" layoutY="31.0" mnemonicParsing="false" onAction="#save" onMouseEntered="#enter_save" onMouseExited="#exit_save" opacity="0.8" prefHeight="44.0" prefWidth="107.0" style="-fx-background-color: #00000000;" text="SAVE" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fx:id="save_icon" layoutX="844.0" layoutY="22.0" opacity="0.8">
+         <image>
+            <Image url="@save-icon.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="discard_button" layoutX="953.0" layoutY="31.0" mnemonicParsing="false" onAction="#discard" onMouseEntered="#enter_subcategory" onMouseExited="#exit_subcategory" opacity="0.8" prefHeight="44.0" prefWidth="122.0" style="-fx-background-color: #00000000;" text="DISCARD" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Text fx:id="sounds_header_text" fill="WHITE" layoutX="766.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SOUNDS">
+         <font>
+            <Font name="Calibri Bold" size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="music_header_text" fill="WHITE" layoutX="229.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MUSIC">
+         <font>
+            <Font name="Calibri Bold" size="24.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="527.0" layoutX="538.0" layoutY="140.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1.0" />
+      <Text fx:id="main_volume_header_text" fill="#ccc9c9" layoutX="21.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MAIN VOLUME">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="music_second_header_text" fill="#ccc9c9" layoutX="21.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MUSIC">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#ccc9c9" layoutX="20.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="JUKEBOX">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="weather_header_text" fill="#ccc9c9" layoutX="561.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WEATHER">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="hostile_entities_header_text" fill="#ccc9c9" layoutX="561.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HOSTILE ENTITIES">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="players_header_text" fill="#ccc9c9" layoutX="561.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PLAYERS">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="blocks_header_text" fill="#ccc9c9" layoutX="562.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BLOCKS">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="friendly_entities_header_text" fill="#ccc9c9" layoutX="561.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FRIENDLY ENTITIES">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="ambient_header_text" fill="#ccc9c9" layoutX="562.0" layoutY="310.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AMBIENT">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="jukebox_text" fill="WHITE" layoutX="481.0" layoutY="236.0" strokeType="OUTSIDE" strokeWidth="0.0" text="100%">
+         <font>
+            <Font name="Calibri Light" size="16.0" />
+         </font>
+      </Text>
+      <Slider fx:id="jukebox_slider" layoutX="175.0" layoutY="225.0" onMouseDragged="#update_jukebox" prefHeight="14.0" prefWidth="268.0" value="100.0" />
+      <Slider fx:id="music_slider" layoutX="175.0" layoutY="200.0" onMouseDragged="#update_music" prefHeight="14.0" prefWidth="268.0" />
+      <Text fx:id="music_text" fill="WHITE" layoutX="481.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0%">
+         <font>
+            <Font name="Calibri Light" size="16.0" />
+         </font>
+      </Text>
+      <Slider fx:id="hostile_mobs_slider" layoutX="716.0" layoutY="200.0" onMouseDragged="#update_hostile" prefHeight="14.0" prefWidth="268.0" value="50.0" />
+      <Text fx:id="hostile_entities_text" fill="WHITE" layoutX="1021.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="50%">
+         <font>
+            <Font name="Calibri Light" size="16.0" />
+         </font>
+      </Text>
+      <Button fx:id="audio_button" layoutX="317.0" layoutY="24.0" mnemonicParsing="false" style="-fx-background-color: #00000000;" text="AUDIO" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="30.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Rectangle arcHeight="2.0" arcWidth="5.0" fill="WHITE" height="2.0" layoutX="318.0" layoutY="80.0" stroke="TRANSPARENT" strokeType="INSIDE" width="123.0" />
+      <Slider fx:id="main_volume_slider" layoutX="175.0" layoutY="176.0" onMouseDragged="#update_main_volume" prefHeight="14.0" prefWidth="268.0" value="100.0" />
+      <Text fx:id="main_volume_text" fill="WHITE" layoutX="481.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="100%">
+         <font>
+            <Font name="Calibri Light" size="16.0" />
+         </font>
+      </Text>
+      <Slider fx:id="weather_slider" layoutX="716.0" layoutY="176.0" onMouseDragged="#update_weather" prefHeight="14.0" prefWidth="268.0" value="75.0" />
+      <Text fx:id="weather_text" fill="WHITE" layoutX="1021.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="75%">
+         <font>
+            <Font name="Calibri Light" size="16.0" />
+         </font>
+      </Text>
+      <Slider fx:id="player_slider" layoutX="716.0" layoutY="224.0" onMouseDragged="#update_player" prefHeight="14.0" prefWidth="268.0" value="50.0" />
+      <Text fx:id="player_text" fill="WHITE" layoutX="1021.0" layoutY="237.0" strokeType="OUTSIDE" strokeWidth="0.0" text="50%">
+         <font>
+            <Font name="Calibri Light" size="16.0" />
+         </font>
+      </Text>
+      <Slider fx:id="blocks_slider" layoutX="716.0" layoutY="248.0" onMouseDragged="#update_blocks" prefHeight="14.0" prefWidth="268.0" value="25.0" />
+      <Text fx:id="blocks_text" fill="WHITE" layoutX="1021.0" layoutY="261.0" strokeType="OUTSIDE" strokeWidth="0.0" text="25%">
+         <font>
+            <Font name="Calibri Light" size="16.0" />
+         </font>
+      </Text>
+      <Slider fx:id="friendly_slider" layoutX="716.0" layoutY="272.0" onMouseDragged="#update_friendly" prefHeight="14.0" prefWidth="268.0" value="50.0" />
+      <Text fx:id="friendly_entities_text" fill="WHITE" layoutX="1021.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="50%">
+         <font>
+            <Font name="Calibri Light" size="16.0" />
+         </font>
+      </Text>
+      <Slider fx:id="ambient_slider" layoutX="716.0" layoutY="296.0" onMouseDragged="#update_ambient" prefHeight="14.0" prefWidth="268.0" value="100.0" />
+      <Text fx:id="ambient_text" fill="WHITE" layoutX="1021.0" layoutY="309.0" strokeType="OUTSIDE" strokeWidth="0.0" text="100%">
+         <font>
+            <Font name="Calibri Light" size="16.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="558.0" layoutY="317.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <Text fx:id="vocal_chat_header_text" fill="#ccc9c9" layoutX="562.0" layoutY="334.0" strokeType="OUTSIDE" strokeWidth="0.0" text="VOCAL CHAT">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Slider fx:id="vocal_chat_slider" layoutX="716.0" layoutY="320.0" onMouseDragged="#update_vocal_chat" prefHeight="14.0" prefWidth="268.0" value="75.0" />
+      <Text fx:id="vocal_chat_text" fill="WHITE" layoutX="1024.0" layoutY="333.0" strokeType="OUTSIDE" strokeWidth="0.0" text="75%">
+         <font>
+            <Font name="Calibri Light" size="16.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

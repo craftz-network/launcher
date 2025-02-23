@@ -1,0 +1,20 @@
+#microsoft-signin-button {
+    -fx-font-family: Bahnschrift Light Condensed;
+    -fx-text-fill: white;
+    -fx-font-size: 30px;
+    -fx-background-radius: 10px;
+}
+
+#craftz-signin-button {
+    -fx-font-family: Bahnschrift Light Condensed;
+    -fx-text-fill: white;
+    -fx-font-size: 30px;
+    -fx-background-radius: 10px;
+}
+
+#craftz-signup-button {
+    -fx-font-family: Bahnschrift Light Condensed;
+    -fx-text-fill: white;
+    -fx-font-size: 30px;
+    -fx-background-radius: 10px;
+}

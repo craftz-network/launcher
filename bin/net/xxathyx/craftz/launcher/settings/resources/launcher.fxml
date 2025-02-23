@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1080.0" style="-fx-background-color: #262626;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.xxathyx.craftz.launcher.settings.LauncherController">
+   <children>
+      <Rectangle arcWidth="5.0" fill="#262e2f" height="23.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1080.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="18.0" layoutY="173.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <ImageView fitHeight="24.0" fitWidth="24.0" layoutY="-1.0">
+         <image>
+            <Image url="@../../resources/icon.png" />
+         </image>
+      </ImageView>
+      <Text id="frame_text" fill="WHITE" layoutX="27.0" layoutY="17.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CraftZ - Settings" wrappingWidth="195.0">
+         <font>
+            <Font name="Calibri" size="21.0" />
+         </font>
+      </Text>
+      <Rectangle arcWidth="5.0" fill="#202020" height="59.0" layoutY="23.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1080.0" />
+      <Rectangle arcHeight="2.0" arcWidth="5.0" fill="WHITE" height="2.0" layoutY="80.0" stroke="TRANSPARENT" strokeType="INSIDE" visible="false" width="177.0" />
+      <ImageView fx:id="hide_image" layoutX="1038.0" layoutY="3.0" opacity="0.8">
+         <image>
+            <Image url="@../../resources/hide.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="close_image" layoutX="1057.0" layoutY="3.0" opacity="0.8">
+         <image>
+            <Image url="@../../resources/close.png" />
+         </image>
+      </ImageView>
+      <Button id="close_button" layoutX="1057.0" layoutY="-2.0" mnemonicParsing="false" onAction="#close" onMouseEntered="#enter_close" onMouseExited="#exit_close" prefHeight="0.0" prefWidth="16.0" style="-fx-background-color: #00000000;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button id="hide_button" layoutX="1037.0" layoutY="-2.0" mnemonicParsing="false" onAction="#hide" onMouseEntered="#enter_hide" onMouseExited="#exit_hide" prefHeight="0.0" prefWidth="16.0" style="-fx-background-color: #00000000;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="graphics_button" layoutX="6.0" layoutY="24.0" mnemonicParsing="false" onAction="#graphics" opacity="0.8" style="-fx-background-color: #00000000;" text="GRAPHICS" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="30.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="controls_button" layoutX="156.0" layoutY="24.0" mnemonicParsing="false" onAction="#controls" onMouseEntered="#enter_subcategory" onMouseExited="#exit_subcategory" opacity="0.8" style="-fx-background-color: #00000000;" text="CONTROLS" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="30.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="launcher_button" layoutX="428.0" layoutY="24.0" mnemonicParsing="false" style="-fx-background-color: #00000000;" text="LAUNCHER" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="30.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Rectangle arcHeight="2.0" arcWidth="5.0" fill="WHITE" height="2.0" layoutX="154.0" layoutY="79.0" stroke="TRANSPARENT" strokeType="INSIDE" visible="false" width="177.0" />
+      <Rectangle arcHeight="2.0" arcWidth="5.0" fill="WHITE" height="2.0" layoutX="427.0" layoutY="80.0" stroke="TRANSPARENT" strokeType="INSIDE" width="177.0" />
+      <Button fx:id="save_button" layoutX="864.0" layoutY="31.0" mnemonicParsing="false" onAction="#save" onMouseEntered="#enter_save" onMouseExited="#exit_save" opacity="0.8" prefHeight="44.0" prefWidth="107.0" style="-fx-background-color: #00000000;" text="SAVE" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fx:id="save_icon" layoutX="844.0" layoutY="22.0" opacity="0.8">
+         <image>
+            <Image url="@save-icon.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="discard_button" layoutX="953.0" layoutY="31.0" mnemonicParsing="false" onAction="#discard" onMouseEntered="#enter_subcategory" onMouseExited="#exit_subcategory" opacity="0.8" prefHeight="44.0" prefWidth="122.0" style="-fx-background-color: #00000000;" text="DISCARD" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Text fx:id="launcher_parameters_text" fill="WHITE" layoutX="139.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LAUNCHER PARAMETERS">
+         <font>
+            <Font name="Calibri Bold" size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="language_text" fill="#ccc9c9" layoutX="21.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LANGUAGE">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Button fx:id="audio_button" layoutX="317.0" layoutY="24.0" mnemonicParsing="false" onAction="#audio" onMouseEntered="#enter_subcategory" onMouseExited="#exit_subcategory" opacity="0.8" style="-fx-background-color: #00000000;" text="AUDIO" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="30.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Rectangle arcHeight="2.0" arcWidth="5.0" fill="WHITE" height="2.0" layoutX="318.0" layoutY="80.0" stroke="TRANSPARENT" strokeType="INSIDE" visible="false" width="123.0" />
+      <MenuButton fx:id="language_menu" layoutX="398.0" layoutY="166.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="124.0" style="-fx-background-color: #00000000;" text="ENGLISH" textFill="WHITE">
+         <items>
+            <MenuItem mnemonicParsing="false" onAction="#language_english" text="ENGLISH" />
+            <MenuItem mnemonicParsing="false" onAction="#language_french" text="FRENCH" />
+         </items>
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </MenuButton>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="18.0" layoutY="197.0" stroke="#404040" strokeType="INSIDE" width="501.0" />
+      <Text fill="#ccc9c9" layoutX="21.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="JVM ARGS">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="args_jvm_field" alignment="BOTTOM_RIGHT" layoutX="124.0" layoutY="187.0" onKeyTyped="#args_jvm_field_pressed" prefHeight="37.0" prefWidth="395.0" style="-fx-background-color: #00000000;" text="-Xmx1G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+      </TextField>
+      <Text fill="#757575" layoutX="529.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(Fully effective after a restart)">
+         <font>
+            <Font name="Calibri Light Italic" size="18.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="18.0" layoutY="221.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <Button fx:id="off_telemetry_button" layoutX="472.0" layoutY="213.0" mnemonicParsing="false" onAction="#off_telemetry" opacity="0.5" style="-fx-background-color: #00000000;" text="OFF" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="on_telemetry_button" layoutX="432.0" layoutY="213.0" mnemonicParsing="false" onAction="#on_telemetry" style="-fx-background-color: #00000000;" text="ON" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="17.0" layoutX="474.0" layoutY="223.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1.0" />
+      <Text fx:id="telemetry_text" fill="#ccc9c9" layoutX="21.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TELEMETRY">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

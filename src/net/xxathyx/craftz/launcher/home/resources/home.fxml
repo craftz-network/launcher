@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1080.0" style="-fx-background-color: linear-gradient(to bottom, #3a3a3a, #2d2d2d); -fx-border-radius: 6;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.xxathyx.craftz.launcher.home.HomeController">
+   <children>
+      <Rectangle fx:id="square0" fill="#3a3a3a" height="108.0" layoutY="82.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square1" fill="#3a3a3a" height="108.0" layoutX="108.0" layoutY="82.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square2" fill="#3a3a3a" height="108.0" layoutX="216.0" layoutY="82.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square3" fill="#3a3a3a" height="108.0" layoutX="324.0" layoutY="82.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square4" fill="#3a3a3a" height="108.0" layoutX="432.0" layoutY="82.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square5" fill="#3a3a3a" height="108.0" layoutX="540.0" layoutY="82.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square6" fill="#3a3a3a" height="108.0" layoutX="648.0" layoutY="82.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square7" fill="#3a3a3a" height="108.0" layoutX="756.0" layoutY="82.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square8" fill="#3a3a3a" height="108.0" layoutX="864.0" layoutY="82.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square9" fill="#3a3a3a" height="108.0" layoutX="972.0" layoutY="82.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square10" fill="#3a3a3a" height="108.0" layoutY="190.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square11" fill="#3a3a3a" height="108.0" layoutX="108.0" layoutY="190.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square12" fill="#3a3a3a" height="108.0" layoutX="216.0" layoutY="190.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square13" fill="#3a3a3a" height="108.0" layoutX="324.0" layoutY="190.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square14" fill="#3a3a3a" height="108.0" layoutX="432.0" layoutY="190.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square15" fill="#3a3a3a" height="108.0" layoutX="540.0" layoutY="190.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square16" fill="#3a3a3a" height="108.0" layoutX="648.0" layoutY="190.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square17" fill="#3a3a3a" height="108.0" layoutX="756.0" layoutY="190.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square18" fill="#3a3a3a" height="108.0" layoutX="864.0" layoutY="190.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square19" fill="#3a3a3a" height="108.0" layoutX="972.0" layoutY="190.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square20" fill="#3a3a3a" height="108.0" layoutY="298.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square21" fill="#3a3a3a" height="108.0" layoutX="108.0" layoutY="298.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square22" fill="#3a3a3a" height="108.0" layoutX="216.0" layoutY="298.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square23" fill="#3a3a3a" height="108.0" layoutX="324.0" layoutY="298.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square24" fill="#3a3a3a" height="108.0" layoutX="432.0" layoutY="298.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square25" fill="#3a3a3a" height="108.0" layoutX="540.0" layoutY="298.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square26" fill="#3a3a3a" height="108.0" layoutX="648.0" layoutY="298.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square27" fill="#3a3a3a" height="108.0" layoutX="756.0" layoutY="298.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square28" fill="#3a3a3a" height="108.0" layoutX="864.0" layoutY="298.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square29" fill="#3a3a3a" height="108.0" layoutX="972.0" layoutY="298.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square30" fill="#3a3a3a" height="108.0" layoutY="406.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square31" fill="#3a3a3a" height="108.0" layoutX="108.0" layoutY="406.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square32" fill="#3a3a3a" height="108.0" layoutX="216.0" layoutY="406.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square33" fill="#3a3a3a" height="108.0" layoutX="324.0" layoutY="406.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square34" fill="#3a3a3a" height="108.0" layoutX="432.0" layoutY="406.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square35" fill="#3a3a3a" height="108.0" layoutX="540.0" layoutY="406.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square36" fill="#3a3a3a" height="108.0" layoutX="648.0" layoutY="406.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square37" fill="#3a3a3a" height="108.0" layoutX="756.0" layoutY="406.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square38" fill="#3a3a3a" height="108.0" layoutX="864.0" layoutY="406.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square39" fill="#3a3a3a" height="108.0" layoutX="972.0" layoutY="406.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square40" fill="#3a3a3a" height="108.0" layoutY="514.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square41" fill="#3a3a3a" height="108.0" layoutX="108.0" layoutY="514.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square42" fill="#3a3a3a" height="108.0" layoutX="216.0" layoutY="514.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square43" fill="#3a3a3a" height="108.0" layoutX="324.0" layoutY="514.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square44" fill="#3a3a3a" height="108.0" layoutX="432.0" layoutY="514.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square45" fill="#3a3a3a" height="108.0" layoutX="540.0" layoutY="514.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square46" fill="#3a3a3a" height="108.0" layoutX="648.0" layoutY="514.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square47" fill="#3a3a3a" height="108.0" layoutX="756.0" layoutY="514.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square48" fill="#3a3a3a" height="108.0" layoutX="864.0" layoutY="514.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square49" fill="#3a3a3a" height="108.0" layoutX="972.0" layoutY="514.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square50" fill="#3a3a3a" height="108.0" layoutY="622.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square51" fill="#3a3a3a" height="108.0" layoutX="108.0" layoutY="622.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square52" fill="#3a3a3a" height="108.0" layoutX="216.0" layoutY="622.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square53" fill="#3a3a3a" height="108.0" layoutX="324.0" layoutY="622.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square54" fill="#3a3a3a" height="108.0" layoutX="432.0" layoutY="622.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square55" fill="#3a3a3a" height="108.0" layoutX="540.0" layoutY="622.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square56" fill="#3a3a3a" height="108.0" layoutX="648.0" layoutY="622.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square57" fill="#3a3a3a" height="108.0" layoutX="756.0" layoutY="622.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square58" fill="#3a3a3a" height="108.0" layoutX="864.0" layoutY="622.0" stroke="TRANSPARENT" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="square59" fill="#3a3a3a" height="108.0" layoutX="972.0" layoutY="622.0" stroke="#51515100" strokeType="INSIDE" width="108.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff00" height="313.0" layoutX="478.0" layoutY="149.0" stroke="#797979" strokeType="INSIDE" width="553.0" />
+      <ProgressBar fx:id="download_bar" layoutX="19.0" layoutY="695.0" prefHeight="18.0" prefWidth="1042.0" progress="0.0" visible="false" />
+      <Text fx:id="download_info_text" fill="WHITE" layoutX="20.0" layoutY="688.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Checking game files ..." visible="false" wrappingWidth="807.0">
+         <font>
+            <Font name="Calibri" size="14.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="menu_header" fitHeight="98.0" fitWidth="98.0" layoutX="51.0" layoutY="151.0">
+         <image>
+            <Image url="@head.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcWidth="5.0" fill="#262e2f" height="23.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1080.0" />
+      <ImageView fitHeight="24.0" fitWidth="24.0" layoutY="-1.0">
+         <image>
+            <Image url="@../../resources/icon.png" />
+         </image>
+      </ImageView>
+      <Text id="frame_text" fill="WHITE" layoutX="27.0" layoutY="17.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CraftZ - Save the world" wrappingWidth="195.0">
+         <font>
+            <Font name="Calibri" size="21.0" />
+         </font>
+      </Text>
+      <Button id="profile-button" fx:id="profile_button" alignment="BASELINE_LEFT" layoutX="50.0" layoutY="287.0" mnemonicParsing="false" onAction="#profile" onMouseEntered="#enter_subcategory" onMouseExited="#exit_subcategory" prefHeight="61.0" prefWidth="354.0" style="-fx-background-color: #282828;" text="       PROFILE" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Calibri Light" size="30.0" />
+         </font></Button>
+      <Button id="settings-button" fx:id="settings_button" alignment="BASELINE_LEFT" layoutX="50.0" layoutY="350.0" mnemonicParsing="false" onAction="#settings" onMouseEntered="#enter_subcategory" onMouseExited="#exit_subcategory" prefHeight="61.0" prefWidth="354.0" style="-fx-background-color: #282828;" text="       SETTINGS" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Calibri Light" size="30.0" />
+         </font></Button>
+      <Button id="community-button" fx:id="community_button" alignment="BASELINE_LEFT" layoutX="50.0" layoutY="413.0" mnemonicParsing="false" onAction="#community" onMouseEntered="#enter_subcategory" onMouseExited="#exit_subcategory" prefHeight="61.0" prefWidth="354.0" style="-fx-background-color: #282828;" text="       COMMUNITY" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Calibri Light" size="30.0" />
+         </font></Button>
+      <Button id="help-button" fx:id="help_button" alignment="BASELINE_LEFT" layoutX="50.0" layoutY="476.0" mnemonicParsing="false" onAction="#help" onMouseEntered="#enter_subcategory" onMouseExited="#exit_subcategory" prefHeight="61.0" prefWidth="354.0" style="-fx-background-color: #282828;" text="       HELP" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Calibri Light" size="30.0" />
+         </font></Button>
+      <ImageView fx:id="profile_icon" fitHeight="44.0" fitWidth="42.0" layoutX="65.0" layoutY="294.0">
+         <image>
+            <Image url="@profile.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="66.0" layoutX="53.0" layoutY="353.0">
+         <image>
+            <Image url="@settings.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="69.0" layoutY="419.0">
+         <image>
+            <Image url="@website.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="70.0" layoutY="484.0">
+         <image>
+            <Image url="@help.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="header_text" fill="#dedede" layoutX="169.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello %username%">
+         <font>
+            <Font name="Calibri" size="36.0" />
+         </font>
+      </Text>
+      <Text id="last_visit" fx:id="last_seen" fill="WHITE" layoutX="169.0" layoutY="203.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Its been a while we haven't seen you" wrappingWidth="281.7421875">
+         <font>
+            <Font name="Calibri Light" size="24.0" />
+         </font>
+      </Text>
+      <Rectangle arcWidth="5.0" fill="#202020" height="59.0" layoutY="23.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1080.0" />
+      <ImageView fx:id="hide_image" layoutX="1038.0" layoutY="3.0" opacity="0.8">
+         <image>
+            <Image url="@../../resources/hide.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="close_image" layoutX="1057.0" layoutY="3.0" opacity="0.8">
+         <image>
+            <Image url="@../../resources/close.png" />
+         </image>
+      </ImageView>
+      <Button id="close_button" layoutX="1057.0" layoutY="-2.0" mnemonicParsing="false" onAction="#close" onMouseEntered="#enter_close" onMouseExited="#exit_close" prefHeight="0.0" prefWidth="16.0" style="-fx-background-color: #00000000;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button id="hide_button" layoutX="1037.0" layoutY="-2.0" mnemonicParsing="false" onAction="#hide" onMouseEntered="#enter_hide" onMouseExited="#exit_hide" prefHeight="0.0" prefWidth="16.0" style="-fx-background-color: #00000000;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button id="navigation_play_button" fx:id="play_header_button" layoutX="-14.0" layoutY="19.0" mnemonicParsing="false" style="-fx-background-color: #00000000;" text="PLAY" textFill="#66c4ff">
+         <font>
+            <Font name="Calibri" size="36.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Rectangle id="navigation_play_slider" fx:id="play_slider" arcHeight="5.0" arcWidth="3.0" fill="DODGERBLUE" height="3.0" layoutX="12.0" layoutY="79.0" stroke="TRANSPARENT" strokeType="INSIDE" width="71.0">
+         <effect>
+            <DropShadow height="234.49" radius="121.8725" spread="0.55" width="255.0">
+               <color>
+                  <Color red="0.20370370149612427" green="0.8274691104888916" blue="1.0" />
+               </color>
+            </DropShadow>
+         </effect></Rectangle>
+      <Text fx:id="profile_info" fill="WHITE" layoutX="735.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\%username% - %coins%">
+         <font>
+            <Font name="Calibri" size="30.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="1038.0" layoutY="37.0">
+         <image>
+            <Image url="@../../resources/coin.png" />
+         </image>
+      </ImageView>
+      <Button id="play_button" fx:id="play_button" layoutX="446.0" layoutY="597.0" mnemonicParsing="false" onAction="#play" onMouseEntered="#enter_play_button" onMouseExited="#exit_play_button" prefHeight="44.0" prefWidth="188.0" style="-fx-background-color: linear-gradient(to left, #1eb34b, #5dd341); -fx-border-radius: 6;" text="PLAY" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="30.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="100.0" layoutX="51.0" layoutY="150.0" stroke="#b0b0b05d" strokeType="INSIDE" width="99.0">
+         <effect>
+            <DropShadow />
+         </effect></Rectangle>
+      <Button id="close_button" layoutX="1038.0" layoutY="37.0" mnemonicParsing="false" onAction="#buy_coins" onMouseEntered="#enter_close" onMouseExited="#exit_close" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: #00000000;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Text fx:id="download_length" fill="WHITE" layoutX="914.0" layoutY="688.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="RIGHT" visible="false">
+         <font>
+            <Font name="Calibri Bold" size="14.0" />
+         </font>
+      </Text>
+      <Button id="navigation_wiki_button" fx:id="wiki_header_button" layoutX="94.0" layoutY="19.0" mnemonicParsing="false" onAction="#wiki" onMouseEntered="#enter_wiki" onMouseExited="#exit_wiki" opacity="0.8" style="-fx-background-color: #00000000;" text="WIKI" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="36.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fx:id="news_preview" fitHeight="310.0" fitWidth="550.0" layoutX="480.0" layoutY="151.0">
+         <image>
+            <Image url="@preview1.jpg" />
+         </image>
+      </ImageView>
+      <ImageView id="bubble_one" fx:id="bubble_one" layoutX="689.0" layoutY="425.0">
+         <image>
+            <Image url="@../../../../../../../../../craftz/code/launcher/src/net/xxathyx/craftz/launcher/home/resources/full.png" />
+         </image>
+      </ImageView>
+      <ImageView id="bubble_two" fx:id="bubble_two" layoutX="740.0" layoutY="425.0">
+         <image>
+            <Image url="@../../../../../../../../../craftz/code/launcher/src/net/xxathyx/craftz/launcher/home/resources/empty.png" />
+         </image>
+      </ImageView>
+      <ImageView id="bubble_three" fx:id="bubble_three" layoutX="793.0" layoutY="425.0">
+         <image>
+            <Image url="@../../../../../../../../../craftz/code/launcher/src/net/xxathyx/craftz/launcher/home/resources/empty.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="left_slider" layoutX="490.0" layoutY="274.0" opacity="0.25">
+         <image>
+            <Image url="@left.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="right_slider" layoutX="972.0" layoutY="274.0" opacity="0.25">
+         <image>
+            <Image url="@right.png" />
+         </image>
+      </ImageView>
+      <Button id="left_slider_button" layoutX="490.0" layoutY="275.0" mnemonicParsing="false" onAction="#left_change_slider" onMouseEntered="#enter_left_slider" onMouseExited="#exit_left_slider" prefHeight="46.0" prefWidth="48.0" style="-fx-background-color: #00000000;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button id="right_slider_button" fx:id="right_change_slider" layoutX="972.0" layoutY="275.0" mnemonicParsing="false" onAction="#right_change_slider" onMouseEntered="#enter_right_slider" onMouseExited="#exit_right_slider" prefHeight="46.0" prefWidth="48.0" style="-fx-background-color: #00000000;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="30.0" layoutX="479.0" layoutY="151.0" opacity="0.5" stroke="TRANSPARENT" strokeType="INSIDE" width="550.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="68.0" layoutX="480.0" layoutY="151.0" opacity="0.3" stroke="TRANSPARENT" strokeType="INSIDE" width="550.0" />
+      <Text fx:id="news_title" fill="WHITE" layoutX="930.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\%news%">
+         <font>
+            <Font name="Segoe UI Semibold" size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="news_line_one" fill="WHITE" layoutX="934.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\%line-one%">
+         <font>
+            <Font name="Segoe UI Light" size="18.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

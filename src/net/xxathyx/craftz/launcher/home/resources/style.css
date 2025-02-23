@@ -1,0 +1,45 @@
+#profile-button {
+    -fx-font-family: Bahnschrift Light Condensed;
+    -fx-text-fill: white;
+    -fx-font-size: 30px;
+    -fx-background-radius: 5px;
+}
+
+#settings-button {
+    -fx-font-family: Bahnschrift Light Condensed;
+    -fx-text-fill: white;
+    -fx-font-size: 30px;
+    -fx-background-radius: 5px;
+}
+
+#community-button {
+    -fx-font-family: Bahnschrift Light Condensed;
+    -fx-text-fill: white;
+    -fx-font-size: 30px;
+    -fx-background-radius: 5px;
+}
+
+#help-button {
+    -fx-font-family: Bahnschrift Light Condensed;
+    -fx-text-fill: white;
+    -fx-font-size: 30px;
+    -fx-background-radius: 5px;
+}
+
+.progress-bar .bar {
+    -fx-background-color: linear-gradient(to right, #A7E6FF, #3ABEF9, #3572EF);
+    -fx-border-color: #464545;
+    -fx-border-width: 0;
+	-fx-pref-width: 390;
+	-fx-pref-height: 10;
+	-fx-background-insets: 0 0 4 0;
+	-fx-padding: 0.05em;
+}
+
+.progress-bar .track {
+    -fx-background-color: #464545;
+    -fx-border-color: #464545;
+    -fx-border-width: 0;
+	-fx-background-insets: 0 0 4 0;
+	-fx-padding: 0.05em;
+}

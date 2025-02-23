@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1080.0" style="-fx-background-color: #262626;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.xxathyx.craftz.launcher.settings.GraphicsController">
+   <children>
+      <Rectangle arcWidth="5.0" fill="#262e2f" height="23.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1080.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="18.0" layoutY="173.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="18.0" layoutY="197.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="18.0" layoutY="221.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="18.0" layoutY="245.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="18.0" layoutY="269.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="18.0" layoutY="293.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="17.0" layoutY="406.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="17.0" layoutY="430.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="17.0" layoutY="454.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="17.0" layoutY="478.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="17.0" layoutY="502.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="17.0" layoutY="526.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="17.0" layoutY="550.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="17.0" layoutY="574.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="17.0" layoutY="598.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="17.0" layoutY="622.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="17.0" layoutY="646.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="558.0" layoutY="406.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="558.0" layoutY="430.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="558.0" layoutY="454.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="558.0" layoutY="478.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="558.0" layoutY="502.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="558.0" layoutY="526.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="558.0" layoutY="550.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="558.0" layoutY="574.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="558.0" layoutY="598.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="558.0" layoutY="622.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="558.0" layoutY="646.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="558.0" layoutY="173.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="558.0" layoutY="197.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="558.0" layoutY="221.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="558.0" layoutY="245.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="558.0" layoutY="269.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="21.0" layoutX="558.0" layoutY="293.0" stroke="#727272" strokeType="INSIDE" width="501.0" />
+      <ImageView fitHeight="24.0" fitWidth="24.0" layoutY="-1.0">
+         <image>
+            <Image url="@../../resources/icon.png" />
+         </image>
+      </ImageView>
+      <Text id="frame_text" fill="WHITE" layoutX="27.0" layoutY="17.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CraftZ - Settings" wrappingWidth="195.0">
+         <font>
+            <Font name="Calibri" size="21.0" />
+         </font>
+      </Text>
+      <Rectangle arcWidth="5.0" fill="#202020" height="59.0" layoutY="23.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1080.0" />
+      <Rectangle arcHeight="2.0" arcWidth="5.0" fill="WHITE" height="2.0" layoutY="80.0" stroke="TRANSPARENT" strokeType="INSIDE" width="177.0" />
+      <ImageView fx:id="hide_image" layoutX="1038.0" layoutY="3.0" opacity="0.8">
+         <image>
+            <Image url="@../../resources/hide.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="close_image" layoutX="1057.0" layoutY="3.0" opacity="0.8">
+         <image>
+            <Image url="@../../resources/close.png" />
+         </image>
+      </ImageView>
+      <Button id="close_button" layoutX="1057.0" layoutY="-2.0" mnemonicParsing="false" onAction="#close" onMouseEntered="#enter_close" onMouseExited="#exit_close" prefHeight="0.0" prefWidth="16.0" style="-fx-background-color: #00000000;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button id="hide_button" layoutX="1037.0" layoutY="-2.0" mnemonicParsing="false" onAction="#hide" onMouseEntered="#enter_hide" onMouseExited="#exit_hide" prefHeight="0.0" prefWidth="16.0" style="-fx-background-color: #00000000;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="graphics_button" layoutX="6.0" layoutY="24.0" mnemonicParsing="false" style="-fx-background-color: #00000000;" text="GRAPHICS" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="30.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="controls_button" layoutX="156.0" layoutY="24.0" mnemonicParsing="false" onAction="#controls" onMouseEntered="#enter_subcategory" onMouseExited="#exit_subcategory" opacity="0.8" style="-fx-background-color: #00000000;" text="CONTROLS" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="30.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="launcher_button" layoutX="428.0" layoutY="24.0" mnemonicParsing="false" onAction="#launcher" onMouseEntered="#enter_subcategory" onMouseExited="#exit_subcategory" opacity="0.8" style="-fx-background-color: #00000000;" text="LAUNCHER" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="30.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Rectangle arcHeight="2.0" arcWidth="5.0" fill="WHITE" height="2.0" layoutX="154.0" layoutY="79.0" stroke="TRANSPARENT" strokeType="INSIDE" visible="false" width="177.0" />
+      <Rectangle arcHeight="2.0" arcWidth="5.0" fill="WHITE" height="2.0" layoutX="427.0" layoutY="80.0" stroke="TRANSPARENT" strokeType="INSIDE" visible="false" width="177.0" />
+      <Button fx:id="save_button" layoutX="864.0" layoutY="31.0" mnemonicParsing="false" onAction="#save" onMouseEntered="#enter_save" onMouseExited="#exit_save" opacity="0.8" prefHeight="44.0" prefWidth="107.0" style="-fx-background-color: #00000000;" text="SAVE" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fx:id="save_icon" layoutX="844.0" layoutY="22.0" opacity="0.8">
+         <image>
+            <Image url="@save-icon.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="discard_button" layoutX="953.0" layoutY="31.0" mnemonicParsing="false" onAction="#discard" onMouseEntered="#enter_subcategory" onMouseExited="#exit_subcategory" opacity="0.8" prefHeight="44.0" prefWidth="122.0" style="-fx-background-color: #00000000;" text="DISCARD" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Text fx:id="animations_text" fill="WHITE" layoutX="743.0" layoutY="392.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ANIMATIONS">
+         <font>
+            <Font name="Calibri Bold" size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="quality_text" fill="WHITE" layoutX="770.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="QUALITY">
+         <font>
+            <Font name="Calibri Bold" size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="details_text" fill="WHITE" layoutX="222.0" layoutY="390.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DETAILS">
+         <font>
+            <Font name="Calibri Bold" size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="general_text" fill="WHITE" layoutX="222.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GENERAL">
+         <font>
+            <Font name="Calibri Bold" size="24.0" />
+         </font>
+      </Text>
+      <Slider fx:id="render_distance_slider" layoutX="175.0" layoutY="248.0" majorTickUnit="8.0" max="64.0" min="2.0" minorTickCount="2" onMouseDragged="#update_render_distance" prefHeight="14.0" prefWidth="268.0" value="8.0" />
+      <Button fx:id="off_sky_button" layoutX="471.0" layoutY="446.0" mnemonicParsing="false" onAction="#off_sky" opacity="0.5" style="-fx-background-color: #00000000;" text="OFF" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="off_sun_and_moon_button" layoutX="471.0" layoutY="469.0" mnemonicParsing="false" onAction="#off_sun_and_moon" opacity="0.5" style="-fx-background-color: #00000000;" text="OFF" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="off_fog_button" layoutX="471.0" layoutY="494.0" mnemonicParsing="false" onAction="#off_fog" opacity="0.5" style="-fx-background-color: #00000000;" text="OFF" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="off_stars_button" layoutX="472.0" layoutY="590.0" mnemonicParsing="false" onAction="#off_stars" opacity="0.5" style="-fx-background-color: #00000000;" text="OFF" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="off_swamp_colors_button" layoutX="472.0" layoutY="615.0" mnemonicParsing="false" onAction="#off_swamp" opacity="0.5" style="-fx-background-color: #00000000;" text="OFF" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="off_entity_shadow_button" layoutX="472.0" layoutY="639.0" mnemonicParsing="false" onAction="#off_entity_shadow" opacity="0.5" style="-fx-background-color: #00000000;" text="OFF" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="off_dynamic_fov_button" layoutX="1012.0" layoutY="165.0" mnemonicParsing="false" onAction="#off_dynamic_fov" opacity="0.5" style="-fx-background-color: #00000000;" text="OFF" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="off_better_snow_button" layoutX="1012.0" layoutY="285.0" mnemonicParsing="false" onAction="#off_better_snow" opacity="0.5" style="-fx-background-color: #00000000;" text="OFF" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="off_water_button" layoutX="1012.0" layoutY="398.0" mnemonicParsing="false" onAction="#off_water" opacity="0.5" style="-fx-background-color: #00000000;" text="OFF" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="off_fire_button" layoutX="1011.0" layoutY="422.0" mnemonicParsing="false" onAction="#off_fire" opacity="0.5" style="-fx-background-color: #00000000;" text="OFF" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="off_redstone_button" layoutX="1011.0" layoutY="445.0" mnemonicParsing="false" onAction="#off_redstone" opacity="0.5" style="-fx-background-color: #00000000;" text="OFF" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="off_flame_button" layoutX="1011.0" layoutY="470.0" mnemonicParsing="false" onAction="#off_flame" opacity="0.5" style="-fx-background-color: #00000000;" text="OFF" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="off_rain_splash_button" layoutX="1011.0" layoutY="495.0" mnemonicParsing="false" onAction="#off_rain_splash" opacity="0.5" style="-fx-background-color: #00000000;" text="OFF" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="off_terrain_button" layoutX="1010.0" layoutY="519.0" mnemonicParsing="false" onAction="#off_terrain" opacity="0.5" style="-fx-background-color: #00000000;" text="OFF" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="off_firework_button" layoutX="1010.0" layoutY="543.0" mnemonicParsing="false" onAction="#off_firework" opacity="0.5" style="-fx-background-color: #00000000;" text="OFF" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="off_lava_button" layoutX="1010.0" layoutY="567.0" mnemonicParsing="false" onAction="#off_lava" opacity="0.5" style="-fx-background-color: #00000000;" text="OFF" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="off_explosion_button" layoutX="1011.0" layoutY="591.0" mnemonicParsing="false" onAction="#off_explosion" opacity="0.5" style="-fx-background-color: #00000000;" text="OFF" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="off_smoke_button" layoutX="1011.0" layoutY="615.0" mnemonicParsing="false" onAction="#off_smoke" opacity="0.5" style="-fx-background-color: #00000000;" text="OFF" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="off_dripping_water_button" layoutX="1011.0" layoutY="639.0" mnemonicParsing="false" onAction="#off_dripping_water" opacity="0.5" style="-fx-background-color: #00000000;" text="OFF" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="on_sky_button" layoutX="431.0" layoutY="446.0" mnemonicParsing="false" onAction="#on_sky" style="-fx-background-color: #00000000;" text="ON" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="on_sun_and_moon_button" layoutX="431.0" layoutY="471.0" mnemonicParsing="false" onAction="#on_sun_and_moon" style="-fx-background-color: #00000000;" text="ON" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="on_fog_button" layoutX="431.0" layoutY="494.0" mnemonicParsing="false" onAction="#on_fog_button" style="-fx-background-color: #00000000;" text="ON" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="on_stars_button" layoutX="432.0" layoutY="590.0" mnemonicParsing="false" onAction="#on_stars" style="-fx-background-color: #00000000;" text="ON" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="on_swamp_colors_button" layoutX="432.0" layoutY="615.0" mnemonicParsing="false" onAction="#on_swamp_colors" style="-fx-background-color: #00000000;" text="ON" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="on_entity_shadow_button" layoutX="432.0" layoutY="639.0" mnemonicParsing="false" onAction="#on_entity_shadow" style="-fx-background-color: #00000000;" text="ON" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="17.0" layoutX="474.0" layoutY="456.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="17.0" layoutX="474.0" layoutY="480.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="17.0" layoutX="474.0" layoutY="504.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="17.0" layoutX="475.0" layoutY="600.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="17.0" layoutX="475.0" layoutY="624.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="17.0" layoutX="475.0" layoutY="648.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1.0" />
+      <Button fx:id="on_dynamic_fov_button" layoutX="972.0" layoutY="165.0" mnemonicParsing="false" onAction="#on_dynamic_fov" style="-fx-background-color: #00000000;" text="ON" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="17.0" layoutX="1015.0" layoutY="175.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1.0" />
+      <Button fx:id="on_better_snow_button" layoutX="972.0" layoutY="285.0" mnemonicParsing="false" onAction="#on_better_snow" style="-fx-background-color: #00000000;" text="ON" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="17.0" layoutX="1015.0" layoutY="295.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1.0" />
+      <Button fx:id="on_water_button" layoutX="972.0" layoutY="398.0" mnemonicParsing="false" onAction="#on_water" style="-fx-background-color: #00000000;" text="ON" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="17.0" layoutX="1014.0" layoutY="408.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1.0" />
+      <Button fx:id="on_redstone_button" layoutX="972.0" layoutY="446.0" mnemonicParsing="false" onAction="#on_redstone" style="-fx-background-color: #00000000;" text="ON" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="17.0" layoutX="1014.0" layoutY="456.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1.0" />
+      <Button fx:id="on_rain_splash_button" layoutX="971.0" layoutY="495.0" mnemonicParsing="false" onAction="#on_rain_splash" style="-fx-background-color: #00000000;" text="ON" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="17.0" layoutX="1014.0" layoutY="504.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1.0" />
+      <Button fx:id="on_terrain_button" layoutX="971.0" layoutY="519.0" mnemonicParsing="false" onAction="#on_terrain" style="-fx-background-color: #00000000;" text="ON" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="17.0" layoutX="1014.0" layoutY="528.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1.0" />
+      <Button fx:id="on_firework_button" layoutX="971.0" layoutY="543.0" mnemonicParsing="false" onAction="#on_firework" style="-fx-background-color: #00000000;" text="ON" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="17.0" layoutX="1014.0" layoutY="552.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1.0" />
+      <Button fx:id="on_lava_button" layoutX="971.0" layoutY="567.0" mnemonicParsing="false" onAction="#on_lava" style="-fx-background-color: #00000000;" text="ON" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="17.0" layoutX="1014.0" layoutY="576.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1.0" />
+      <Button fx:id="on_explosion_button" layoutX="971.0" layoutY="591.0" mnemonicParsing="false" onAction="#on_explosion" style="-fx-background-color: #00000000;" text="ON" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="17.0" layoutX="1014.0" layoutY="600.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1.0" />
+      <Button fx:id="on_smoke_button" layoutX="971.0" layoutY="615.0" mnemonicParsing="false" onAction="#on_smoke" style="-fx-background-color: #00000000;" text="ON" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="17.0" layoutX="1014.0" layoutY="624.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1.0" />
+      <Button fx:id="on_dripping_water_button" layoutX="971.0" layoutY="639.0" mnemonicParsing="false" onAction="#on_dripping_water" style="-fx-background-color: #00000000;" text="ON" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="17.0" layoutX="1014.0" layoutY="648.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="527.0" layoutX="538.0" layoutY="140.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1.0" />
+      <Button fx:id="on_flame_button" layoutX="972.0" layoutY="470.0" mnemonicParsing="false" onAction="#on_flame" style="-fx-background-color: #00000000;" text="ON" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="on_fire_button" layoutX="972.0" layoutY="422.0" mnemonicParsing="false" onAction="#on_fire" style="-fx-background-color: #00000000;" text="ON" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Text fx:id="textures_text" fill="#ccc9c9" layoutX="21.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTURES">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="brightness_header_text" fill="#ccc9c9" layoutX="21.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BRIGHTNESS">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#ccc9c9" layoutX="20.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MAX-FPS">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="render_distance_header_text" fill="#ccc9c9" layoutX="21.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RENDER DISTANCE">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="render_entity_header_text" fill="#ccc9c9" layoutX="21.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RENDER ENTITY">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="gui_scale_text" fill="#ccc9c9" layoutX="21.0" layoutY="310.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GUI SCALE">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="clouds_text" fill="#ccc9c9" layoutX="20.0" layoutY="423.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CLOUDS">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="trees_leaves_text" fill="#ccc9c9" layoutX="21.0" layoutY="447.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TREES LEAVES">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="sun_and_moon_text" fill="#ccc9c9" layoutX="21.0" layoutY="495.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SUN AND MOON">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="fog_text" fill="#ccc9c9" layoutX="21.0" layoutY="519.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FOG">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="fog_start_header_text" fill="#ccc9c9" layoutX="20.0" layoutY="543.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FOG START">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="cloud_height_header_text" fill="#ccc9c9" layoutX="20.0" layoutY="567.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CLOUD HEIGHT">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="rain_and_snow_text" fill="#ccc9c9" layoutX="20.0" layoutY="591.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RAIN AND SNOW">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="stars_text" fill="#ccc9c9" layoutX="21.0" layoutY="615.0" strokeType="OUTSIDE" strokeWidth="0.0" text="STARS">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="swamp_colors_text" fill="#ccc9c9" layoutX="21.0" layoutY="639.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SWAMP COLORS">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="entity_shadow_text" fill="#ccc9c9" layoutX="20.0" layoutY="663.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ENTITY SHADOW">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="dynamic_fov_text" fill="#ccc9c9" layoutX="561.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DYNAMIC FOV">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="fov_header_text" fill="#ccc9c9" layoutX="561.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FOV">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#ccc9c9" layoutX="561.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FILTRAGE">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#ccc9c9" layoutX="562.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ANTIALIASING">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#ccc9c9" layoutX="561.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MIPMAP">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="better_snow_text" fill="#ccc9c9" layoutX="562.0" layoutY="310.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BETTER SNOW">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="water_text" fill="#ccc9c9" layoutX="561.0" layoutY="423.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WATER">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="fire_text" fill="#ccc9c9" layoutX="561.0" layoutY="447.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FIRE">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#ccc9c9" layoutX="561.0" layoutY="471.0" strokeType="OUTSIDE" strokeWidth="0.0" text="REDSTONE">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="flame_text" fill="#ccc9c9" layoutX="561.0" layoutY="495.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FLAME">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="rain_splash_text" fill="#ccc9c9" layoutX="561.0" layoutY="519.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RAIN SPLASH">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="terrain_text" fill="#ccc9c9" layoutX="561.0" layoutY="543.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TERRAIN">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="firework_text" fill="#ccc9c9" layoutX="561.0" layoutY="567.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FIREWORK">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="lava_text" fill="#ccc9c9" layoutX="561.0" layoutY="591.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LAVA">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="explosion_text" fill="#ccc9c9" layoutX="561.0" layoutY="615.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EXPLOSION">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="smoke_text" fill="#ccc9c9" layoutX="561.0" layoutY="639.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SMOKE">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="dripping_water_text" fill="#ccc9c9" layoutX="561.0" layoutY="663.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DRIPPING WATER">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="17.0" layoutX="1014.0" layoutY="480.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="17.0" layoutX="1014.0" layoutY="432.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1.0" />
+      <Text fx:id="sky_text" fill="#ccc9c9" layoutX="21.0" layoutY="471.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SKY">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="render_entity_text" fill="WHITE" layoutX="443.0" layoutY="284.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8 CHUNKS">
+         <font>
+            <Font name="Calibri Light" size="16.0" />
+         </font>
+      </Text>
+      <Text fx:id="render_distance_text" fill="WHITE" layoutX="444.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8 CHUNKS">
+         <font>
+            <Font name="Calibri Light" size="16.0" />
+         </font>
+      </Text>
+      <Slider fx:id="render_entity_slider" layoutX="175.0" layoutY="272.0" majorTickUnit="8.0" max="64.0" min="2.0" minorTickCount="2" onMouseDragged="#update_render_entity" prefHeight="14.0" prefWidth="268.0" value="8.0" />
+      <Text fx:id="max_fps_text" fill="WHITE" layoutX="451.0" layoutY="236.0" strokeType="OUTSIDE" strokeWidth="0.0" text="160 FPS">
+         <font>
+            <Font name="Calibri Light" size="16.0" />
+         </font>
+      </Text>
+      <Slider fx:id="max_fps_slider" layoutX="175.0" layoutY="225.0" max="260.0" min="60.0" onMouseDragged="#update_max_fps" prefHeight="14.0" prefWidth="268.0" value="160.0" />
+      <Slider fx:id="brightness_slider" layoutX="175.0" layoutY="200.0" onMouseDragged="#update_brightness" prefHeight="14.0" prefWidth="268.0" value="50.0" />
+      <Text fx:id="brightness_text" fill="WHITE" layoutX="481.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="50%">
+         <font>
+            <Font name="Calibri Light" size="16.0" />
+         </font>
+      </Text>
+      <Slider fx:id="fog_start_slider" blockIncrement="0.8" layoutX="175.0" layoutY="528.0" max="0.8" min="0.2" onMouseDragged="#update_fog_start" prefHeight="14.0" prefWidth="268.0" value="0.2" />
+      <Slider fx:id="cloud_height_slider" layoutX="175.0" layoutY="554.0" max="255.0" onMouseDragged="#update_cloud_height" prefHeight="14.0" prefWidth="268.0" value="255.0" />
+      <Slider fx:id="fov_slider" layoutX="716.0" layoutY="200.0" max="110.0" min="30.0" onMouseDragged="#update_fov" prefHeight="14.0" prefWidth="268.0" value="50.0" />
+      <MenuButton fx:id="textures_menu" layoutX="398.0" layoutY="166.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="124.0" style="-fx-background-color: #00000000;" text="HIGH" textFill="WHITE">
+        <items>
+            <MenuItem mnemonicParsing="false" onAction="#textures_low" text="LOW" />
+          <MenuItem mnemonicParsing="false" onAction="#textures_medium" text="MEDIUM" />
+          <MenuItem mnemonicParsing="false" onAction="#textures_high" text="HIGH" />
+        </items>
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </MenuButton>
+      <MenuButton fx:id="gui_scale_menu" layoutX="388.0" layoutY="286.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="134.0" style="-fx-background-color: #00000000;" text="STANDARD" textFill="WHITE">
+         <items>
+            <MenuItem mnemonicParsing="false" onAction="#gui_scale_standard" text="STANDARD" />
+            <MenuItem mnemonicParsing="false" onAction="#gui_scale_small" text="SMALL" />
+         </items>
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </MenuButton>
+      <MenuButton fx:id="clouds_menu" layoutX="397.0" layoutY="399.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="124.0" style="-fx-background-color: #00000000;" text="DEFAULT" textFill="WHITE">
+         <items>
+            <MenuItem mnemonicParsing="false" onAction="#clouds_off" text="OFF" />
+            <MenuItem mnemonicParsing="false" onAction="#clouds_low" text="LOW" />
+            <MenuItem mnemonicParsing="false" onAction="#clouds_default" text="DEFAULT" />
+            <MenuItem mnemonicParsing="false" onAction="#clouds_detailed" text="DETAILED" />
+         </items>
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </MenuButton>
+      <MenuButton fx:id="trees_leaves_menu" layoutX="397.0" layoutY="423.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="124.0" style="-fx-background-color: #00000000;" text="DEFAULT" textFill="WHITE">
+         <items>
+            <MenuItem mnemonicParsing="false" onAction="#trees_leaves_default" text="DEFAULT" />
+            <MenuItem mnemonicParsing="false" onAction="#trees_leaves_low" text="LOW" />
+            <MenuItem mnemonicParsing="false" onAction="#trees_leaves_medium" text="MEDIUM" />
+            <MenuItem mnemonicParsing="false" onAction="#trees_leaves_high" text="HIGH" />
+         </items>
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </MenuButton>
+      <MenuButton fx:id="rain_and_snow_menu" layoutX="397.0" layoutY="567.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="124.0" style="-fx-background-color: #00000000;" text="DEFAULT" textFill="WHITE">
+         <items>
+            <MenuItem mnemonicParsing="false" onAction="#rain_and_snow_off" text="OFF" />
+            <MenuItem mnemonicParsing="false" onAction="#rain_and_snow_low" text="LOW" />
+            <MenuItem mnemonicParsing="false" onAction="#rain_and_snow_default" text="DEFAULT" />
+            <MenuItem mnemonicParsing="false" onAction="#rain_and_snow_high" text="HIGH" />
+         </items>
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </MenuButton>
+      <MenuButton fx:id="filtrage_menu" layoutX="938.0" layoutY="214.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="124.0" style="-fx-background-color: #00000000;" text="OFF" textFill="WHITE">
+         <items>
+            <MenuItem mnemonicParsing="false" onAction="#filtrage_off" text="OFF" />
+            <MenuItem mnemonicParsing="false" onAction="#filtrage_2x" text="2x" />
+            <MenuItem mnemonicParsing="false" onAction="#filtrage_4x" text="4x" />
+            <MenuItem mnemonicParsing="false" onAction="#filtrage_8x" text="8x" />
+            <MenuItem mnemonicParsing="false" onAction="#filtrage_16x" text="16x" />
+         </items>
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </MenuButton>
+      <MenuButton fx:id="antialiasing_menu" layoutX="938.0" layoutY="238.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="124.0" style="-fx-background-color: #00000000;" text="OFF" textFill="WHITE">
+         <items>
+            <MenuItem mnemonicParsing="false" onAction="#antialiasing_off" text="OFF" />
+            <MenuItem mnemonicParsing="false" onAction="#antialiasing_2x" text="2x" />
+            <MenuItem mnemonicParsing="false" onAction="#antialiasing_4x" text="4x" />
+            <MenuItem mnemonicParsing="false" onAction="#antialiasing_8x" text="8x" />
+            <MenuItem mnemonicParsing="false" onAction="#antialiasing_16x" text="16x" />
+         </items>
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </MenuButton>
+      <MenuButton fx:id="mipmap_menu" layoutX="938.0" layoutY="262.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="124.0" style="-fx-background-color: #00000000;" text="NEAREST" textFill="WHITE">
+         <items>
+            <MenuItem mnemonicParsing="false" onAction="#mipmap_nearest" text="NEAREST" />
+            <MenuItem mnemonicParsing="false" onAction="#mipmap_linear" text="LINEAR" />
+            <MenuItem mnemonicParsing="false" onAction="#mipmap_bilinear" text="BILINEAR" />
+            <MenuItem mnemonicParsing="false" onAction="#mipmap_trilinear" text="TRILINEAR" />
+         </items>
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </MenuButton>
+      <Text fx:id="fog_start_text" fill="WHITE" layoutX="488.0" layoutY="542.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0.2">
+         <font>
+            <Font name="Calibri Light" size="16.0" />
+         </font>
+      </Text>
+      <Text fx:id="cloud_height_text" fill="WHITE" layoutX="484.0" layoutY="566.0" strokeType="OUTSIDE" strokeWidth="0.0" text="255">
+         <font>
+            <Font name="Calibri Light" size="16.0" />
+         </font>
+      </Text>
+      <Text fx:id="fov_text" fill="WHITE" layoutX="1026.0" layoutY="212.0" strokeType="OUTSIDE" strokeWidth="0.0" text="50°">
+         <font>
+            <Font name="Calibri Light" size="16.0" />
+         </font>
+      </Text>
+      <Button fx:id="audio_button" layoutX="317.0" layoutY="24.0" mnemonicParsing="false" onAction="#audio" onMouseEntered="#enter_subcategory" onMouseExited="#exit_subcategory" opacity="0.8" style="-fx-background-color: #00000000;" text="AUDIO" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="30.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Rectangle arcHeight="2.0" arcWidth="5.0" fill="WHITE" height="2.0" layoutX="314.0" layoutY="79.0" stroke="TRANSPARENT" strokeType="INSIDE" visible="false" width="123.0" />
+   </children>
+</Pane>
